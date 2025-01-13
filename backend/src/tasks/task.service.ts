@@ -8,7 +8,10 @@ export class TaskService {
 
     async getTasks(): Promise<Task[]> {
         const supabase = this.supabaseService.getClient();
-        const { data, error } = await supabase.from('tasks').select('*');
+        const { data, error } = await supabase
+            .from('tasks')
+            .select('*');
+
         if (error) {
             throw new Error(`Error fetching tasks: ${error.message}`);
         }

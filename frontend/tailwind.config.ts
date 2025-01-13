@@ -9,10 +9,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: '#2b2a2a',
+        foreground: '#e5e5c4',
+        inputBg: '#3b3a39',
+        buttonBg: '#f4a261',
+        buttonHover: '#e99650',
       },
     },
   },
   plugins: [],
-} satisfies Config;
+} satisfies Config; 

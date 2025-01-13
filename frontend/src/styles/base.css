@@ -1,0 +1,22 @@
+@tailwind base;
+
+:root {
+  --background: #2b2a2a;
+  --foreground: #e5e5c4;
+  --input-bg: #3b3a39;
+  --button-bg: #f4a261;
+  --button-hover: #e99650;
+  --create-bg: #88c999;
+  --create-hover: #76b88a;
+  --border-color: #4c4b49;
+}
+
+body {
+  color: var(--foreground);
+  background-size: cover;
+  background-color: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 16px;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
