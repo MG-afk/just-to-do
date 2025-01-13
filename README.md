@@ -6,11 +6,6 @@
 
 **Server:** Node, NestJS
 
-**Database:** PostgreSQL
+**Database:** Supabase, PostgreSQL
 
-**Others:** AWS, Docker, CircleCI
-
-**Testing:** Jest, Supertest, React Testing Liblary
-
-
-###### ->- Created using [-- README.so --](https://readme.so) -<-
+![ToDoGif](/image/gif.gif)

@@ -22,7 +22,7 @@ const TaskForm: React.FC<TaskFormProps> = ({ onCreate }) => {
         value={title}
         onChange={(e) => setTitle(e.target.value)}
         placeholder="Enter TODO title"
-        className="bg-input-bg text-foreground border border-border-color p-3 rounded flex-grow mr-2"
+        className="bg-input-bg text-background border border-border-color p-3 rounded flex-grow mr-2"
       />
       <button
         type="submit"
